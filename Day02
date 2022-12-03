@@ -1,4 +1,4 @@
-CREATE TABLE ogrenciler5
+CREATE TABLE ogrenciler5//
 (
 ogrenci_no char(7),-- Uzunluğunu bildiğimiz stringler için CHAR kullanılır
 isim varchar(20), -- Uzunluğunu bilmediğimiz stringler için VARCHAR kullanırız
@@ -18,7 +18,7 @@ INSERT INTO notlar VALUES ('Hakan',95.5);
 INSERT INTO notlar VALUES ('Adem',95.5);
 select * from notlar;
 
-select isim from notlar;
+select isim from notlar;//
 
 -- CONSTRAINT
 --UNIQEU
